@@ -8,7 +8,6 @@ body{
 }
 
 
-
 .title{
   min-width: 900px;
 }
@@ -38,6 +37,7 @@ body{
   width: 75%;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 9.75%;
 
 }
 
@@ -67,6 +67,34 @@ body{
   letter-spacing: 1px;
 }
 
+.h2-1 {
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 29.5%; 
+  font-family: 'Circularpro book', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #fff;
+  font-size: 14px;
+  line-height: 30px;
+  font-style: italic;
+  font-weight: 400;
+  text-align: left;
+  letter-spacing: 1px;
+}
+
+.h3 {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Circularpro book', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 200;
+  text-align: left;
+  letter-spacing: 1px;
+  margin-top: 5%
+}
+
 .name{
   font-family: 'Circularpro book', 'Helvetica Neue', Helvetica, sans-serif;
   color: #fff;
@@ -89,6 +117,9 @@ body{
   font-weight: 400;
   letter-spacing: 3px;
   text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  width: 10%
 }
 
 .menu a{
@@ -111,13 +142,13 @@ body{
 
 }  
 .social{
-  position: absolute;
-  bottom: 50px; 
-  left: 50px;
   display: flex;
+  justify-content: space-between;
+  width: 15%;
   font-size: 12px ;  
   font-weight: 400;
   letter-spacing: 3px;
+  margin-left: 3.8%;
 
 }
 
@@ -152,7 +183,7 @@ body{
   display: flex;
   justify-content: column;
   background-image: url("image/PH1.JPG");
-
+  margin-bottom: 22.3%;
 }
 
 .placement-PHOTO a:hover{
@@ -168,6 +199,10 @@ body{
   color: grey; 
 }
 
+.placement-ABOUT{
+  background-image: url("image/DOS.JPG");
+}
+
 .photo-vid{
   display: flex;
   flex-wrap: wrap;
@@ -179,7 +214,7 @@ body{
   z-index: 2;
 }
 
-.photo-vid a{
+.photo-vid a, .photo-vid p{
   font-family: 'Circularpro book','Helvetica Neue', Helvetica, sans-serif;
   color: white;
   font-size: 170px;
@@ -193,6 +228,8 @@ body{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 .placemenr-pics img{
@@ -200,158 +237,10 @@ body{
   width: 300px;
 }
 
-
-
-/*
-.link-1{
-  font-family: 'Circularpro book', sans-serif;
-  color: #fff;
-  font-size: 20px;
-  font-weight: 200;
-}
-
-.link-2{
-  font-family: 'Circularpro book', sans-serif;
-  color: #fff;
-  font-size: 20px;
-  font-weight: 200;
-}
-
-
-body div:nth-child(2) {
-  align-self: flex-end;
-}
-
-
-body{
-  background: #283130;
-  color:white;
-  font-family: Arial, 'Helvetica Neue', Helvetica;
-  height: 100vh;
+.massage{
   display: flex;
-  flex-direction: column;
-}
-h3{
-  color: #FDFEFE;
-text-indent: 25px 
-}
-
-a:link{
-  color:  #FDFEFE 
-}
-
-.photot{
-  float: right;
-
-}
-a:hover{
-  color: 
-#FDFEFE;
+  justify-content: space-around;
+  margin-bottom: 15%;
 }
 
 
-.div-block-test {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    z-index: 1;
-    display: block;
-    width: 70%;
-    margin-right: auto;
-    margin-left: auto;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
-.h1-testing {
-  width: 60%;
-  margin-top: 0px;
-  margin-bottom: 30px;
-  font-family: 'Circularpro book', sans-serif;
-  color: #fff;
-  font-size: 7vmax;
-  line-height: 10vmin;
-  font-weight: 500;
-  text-align: left;
-  letter-spacing: 0px;
-}
-
-.h2 {
-  margin-top: 0px;
-  clear: left;
-  font-family: 'Circularpro book', sans-serif;
-  color: #fff;
-  font-size: 14px;
-  line-height: 30px;
-  font-style: italic;
-  font-weight: 400;
-  text-align: left;
-  letter-spacing: 1px;
-}
-
-.name{
-  font-family: 'Circularpro book', sans-serif;
-  color: #fff;
-  font-size: 25px;
-  font-weight: 500;
-  position: absolute;
-  left: 60px;
-  top: 30px;
-}
-
-.link-1{
-  font-family: 'Circularpro book', sans-serif;
-  color: #fff;
-  font-size: 20px;
-  font-weight: 200;
-  position: absolute;
-  left: : 100px;
-  top: 60px;
-}
-
-.link-2{
-  font-family: 'Circularpro book', sans-serif;
-  color: #fff;
-  font-size: 20px;
-  font-weight: 200;
-  position: absolute;
-  left: : 150px;
-  top: 60px;
-}
-
-
-.link-social-1{
-   font-family: 'Circularpro book', sans-serif;
-  color: #fff;
-  font-size: 10px;
-  font-weight: 100;
-  position: absolute;
-  left: : 100px;
-  bottom-margin: 50px;
-
-}
-
-.link-social-2{
-   font-family: 'Circularpro book', sans-serif;
-  color: #fff;
-  font-size: 500px;
-  font-weight: 100;
-  position: absolute;
-  left: : 50px;
-  bottom: 50px;
-}
-
-.social{
-    left: : 50px;
-  bottom: 50px;
-  display: flex;
-
-}
-.social a {
-  margin-right: 15px;
-}
-body div:nth-child(2) {
-  align-self: flex-end;
-}
-*/
