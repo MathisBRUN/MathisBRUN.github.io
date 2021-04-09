@@ -1,0 +1,246 @@
+body{
+	background: #010101;
+	color:white;
+	font-family: 'Circularpro book' , 'Helvetica Neue', Helvetica;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+}
+
+
+.title{
+  min-width: 900px;
+}
+
+.projets{
+  margin-top: 10%;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 3px
+}
+
+.projets a {
+  color: #FDFEFE;
+  text-decoration: none;
+
+}
+
+.projets a:hover{
+  color: grey;
+}
+
+.div-block-test {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 13%;
+  z-index: 1;
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 9.75%;
+
+}
+
+.h1-testing {
+  width: 60%;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  font-family: 'Circularpro book', 'Helvetica Neue', Helvetica ,sans-serif;
+  color: #fff;
+  font-size: 8vmax;
+  line-height: 85px;
+  font-weight: 300;
+  text-align: left;
+  letter-spacing: 2px;
+}
+
+.h2 {
+  margin-top: 0px;
+  clear: left;
+  font-family: 'Circularpro book', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #fff;
+  font-size: 14px;
+  line-height: 30px;
+  font-style: italic;
+  font-weight: 400;
+  text-align: left;
+  letter-spacing: 1px;
+}
+
+.h2-1 {
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 29.5%; 
+  font-family: 'Circularpro book', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #fff;
+  font-size: 14px;
+  line-height: 30px;
+  font-style: italic;
+  font-weight: 400;
+  text-align: left;
+  letter-spacing: 1px;
+}
+
+.h3 {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Circularpro book', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 200;
+  text-align: left;
+  letter-spacing: 1px;
+  margin-top: 5%
+}
+
+.name{
+  font-family: 'Circularpro book', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 3px
+
+}
+
+.name a{
+  text-decoration: none;
+  color: #FDFEFE;
+}
+
+
+.menu{
+  font-family: 'Circularpro book','Helvetica Neue', Helvetica, sans-serif;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  width: 10%
+}
+
+.menu a{
+  text-decoration: none;
+  color: #FDFEFE;
+}
+
+.menu a:hover{
+  color: grey;
+}
+
+.haut{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 92%;
+  margin-top: 2.5%;
+  margin-right: auto;
+  margin-left: auto;
+
+}  
+.social{
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+  font-size: 12px ;  
+  font-weight: 400;
+  letter-spacing: 3px;
+  margin-left: 3.8%;
+
+}
+
+.social a {
+  margin-right: 15px;
+  color: #FDFEFE;
+  text-decoration: none;
+}
+
+.project-title{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 700px
+  width:10%;
+  margin-top: 18%;
+  margin-right: 50px;
+  margin-left: 50px;
+  
+}
+
+.project-title a{
+  font-family: 'Circularpro book','Helvetica Neue', Helvetica, sans-serif;
+  color: #fff;
+  font-size: 80px;
+  font-weight: 300;
+  letter-spacing: 4px;
+  text-decoration: none;
+}
+
+.placement-PHOTO{
+  display: flex;
+  justify-content: column;
+  background-image: url("image/PH1.JPG");
+  margin-bottom: 22.3%;
+}
+
+.placement-PHOTO a:hover{
+  color: grey;
+}
+
+.placement-VIDEO{
+  display: flex;
+  justify-content: column;
+}
+
+.placement-VIDEO a:hover{
+  color: grey; 
+}
+
+.placement-ABOUT{
+  background-image: url("image/DOS.JPG");
+}
+
+.photo-vid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 700px
+  margin-top: 10%;
+  margin-right: 50px;
+  margin-left: 50px;
+  z-index: 2;
+}
+
+.photo-vid a, .photo-vid p{
+  font-family: 'Circularpro book','Helvetica Neue', Helvetica, sans-serif;
+  color: white;
+  font-size: 170px;
+  font-weight: 100;
+  letter-spacing: 4px;
+  text-decoration: none;
+
+}
+
+.placement-pics{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.placemenr-pics img{
+  height: 300px;  
+  width: 300px;
+}
+
+.massage{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15%;
+}
+
+
